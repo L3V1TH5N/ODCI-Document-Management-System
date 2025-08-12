@@ -90,7 +90,7 @@ function formatFileSize($bytes, $precision = 2) {
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <!-- Sidebar (you can implement this based on your design) -->
+
     <section id="sidebar">
         <a href="#" class="brand">
             <img src="../../img/cvsu-logo.png" alt="Logo" style="width: 30px; height: 30px;">
@@ -104,21 +104,45 @@ function formatFileSize($bytes, $precision = 2) {
                 </a>
             </li>
             <li>
+                <a href="social-feed.php">
+                    <i class='bx bxs-message-rounded-dots'></i>
+                    <span class="text">Social Feed</span>
+                </a>
+            </li>
+            <li>
+                <a href="document-tracker.php">
+                    <i class='bx bxs-file-find'></i>
+                    <span class="text">Document Tracker</span>
+                </a>
+            </li>
+            <li>
+                <a href="view-faculty-staff.php">
+                    <i class='bx bxs-user-voice'></i>
+                    <span class="text">View Faculty Staff</span>
+                </a>
+            </li>
+            <li>
                 <a href="files.php">
                     <i class='bx bxs-file'></i>
-                    <span class="text">My Files</span>
+                    <span class="text">All Files</span>
                 </a>
             </li>
             <li>
                 <a href="folders.php">
                     <i class='bx bxs-folder'></i>
-                    <span class="text">Folders</span>
+                    <span class="text">All Folders</span>
                 </a>
             </li>
             <li>
                 <a href="shared.php">
                     <i class='bx bxs-share'></i>
-                    <span class="text">Shared</span>
+                    <span class="text">Shared Files</span>
+                </a>
+            </li>
+            <li>
+                <a href="reports.php">
+                    <i class='bx bxs-report'></i>
+                    <span class="text">Reports</span>
                 </a>
             </li>
         </ul>
